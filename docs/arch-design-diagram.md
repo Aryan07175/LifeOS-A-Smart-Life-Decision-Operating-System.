@@ -1,5 +1,6 @@
 ## sequence diagram end-to-end decision feature
 
+```mermaid
 sequenceDiagram
 autonumber
 
@@ -144,3 +145,4 @@ Stripe[Stripe]
 
 SubscriptionService --> Stripe
 EventBus --> Redis
+```
